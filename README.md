@@ -68,7 +68,7 @@ Max context per sequence is 1,048,576 tokens. Recommended sampling: `temperature
 
 ```bash
 curl http://localhost:8000/v1/chat/completions -H "Content-Type: application/json" \
-  -d '{"model": "GLM-5.3-Flash", "messages": [{"role": "user", "content": "Who won the world series in 2020?"}]}'
+  -d '{"model": "glm-5.3-flash", "messages": [{"role": "user", "content": "Who won the world series in 2020?"}]}'
 ```
 
 ## Files

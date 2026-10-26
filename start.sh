@@ -32,7 +32,7 @@ if [[ -f "${SCRIPT_DIR}/.env" ]]; then
 fi
 
 MODEL_ID="${MODEL_ID:-zai-org/GLM-5.3-Flash}"
-SERVED_MODEL_NAME="${SERVED_MODEL_NAME:-GLM-5.3-Flash}"
+SERVED_MODEL_NAME="${SERVED_MODEL_NAME:-glm-5.3-flash}"
 IMAGE="${IMAGE:-lmsysorg/sglang:v0.5.22-cu130}"
 GPU_ID="${GPU_ID:-0,1,2,3,4,5,6,7}"
 HOST="${HOST:-0.0.0.0}"
